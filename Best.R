@@ -1,3 +1,6 @@
+##Set working directory to data directory
+setwd('C:/Users/bryan_000/Documents/GitHub/Data/')
+
 best <- function(state, outcome) {
         ## Read outcome data
         tempdata <- read.csv(file='outcome-of-care-measures.csv', colClasses = 'character')

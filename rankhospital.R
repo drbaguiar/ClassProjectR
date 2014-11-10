@@ -1,3 +1,6 @@
+##Set working directory to data directory
+setwd('C:/Users/bryan_000/Documents/GitHub/Data/')
+
 rankhospital <- function(state, outcome, num = "best") {
         # read outcome
         data <- read.csv(file="outcome-of-care-measures.csv", colClasses = 'character')
